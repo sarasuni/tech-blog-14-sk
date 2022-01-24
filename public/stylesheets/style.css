@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    margin: 0;
+    color: gray;
+    line-height: 1.25;
+}
+
+h2 a:visited{
+    color: plum;
+}
+
+h2 a{
+    color: salmon;
+}
+
+header {
+    margin-top: 50px;
+}
+
+main{
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+input{
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+
+.card-header h2 {
+    color:black;
+  margin-left: 330px;
+}
+
+.btn{
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 10%;
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px  rgb(223, 69, 69);
+    color:bisque;
+    border: none;
+    outline: none;
+    background-color: brown;
+    box-shadow: 3px 3px gray;
+    transform: translate(-1px, -1px);
+    margin-left: 300px;
+}
+.btn:hover {
+    color:black;
+    background-color: lightslategray;
+    transform: translate(0,0);
+    box-shadow: 2px 2px paleturquoise;
+}
+.button{
+    margin-left: 315px;
+}
+
+
+.btn-inline {
+    display: inline;
+}
+
+.li-inline {
+    display: inline;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: brown;
+}
+
+.nav-item {
+    margin: 0 40px;
+}
+
+.nav-item a{
+    color: bisque;
+}
+
+.head {
+    padding: 3% 4%;
+    background-color: brown;
+    color:bisque ;
+}
+
+.head p {
+    max-width: 75%;
+}
+
+.app-title {
+  font-size: 3rem;
+  background-color:bisque ;
+  color: brown;
+  padding: 0 10px;
+  display: inline-block;
+  border-radius: lightslategray;
+  box-shadow: 6px 5px gray;
+}
+
+.app-title a {
+    color:brown ;
+}
+
+.list-group{
+    padding: 1%;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: lightslategray;
+    background-color: brown;
+    color: bisque;
+    text-decoration: none;
+}
+
+.list-item:hover {
+    background-color: lightslategray;
+}
+
+.footer a{
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: .5em;
+    background-color: brown;
+    color: bisque;
+   border-radius: lightslategray;
+   text-decoration: none;
+}
+
+
+
+
